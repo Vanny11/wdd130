@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Rock+Salt&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Sans Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #0779e4;
+}
+
+/* Picture styles */
+#picture {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#picture-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#picture-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Main content styles */
+.columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.box1, .box2, .box3, .box4 {
+  flex-basis: calc(25% - 20px);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(27, 148, 37, 0.2);
+}
+
+.box1 h1, .box2 h2, .box3 h3, .box4 h4 {
+  color:#0779e4;
+}
+
+/* Footer styles */
+footer {
+  color: #0779e4;
+  text-align: center;
+  padding: auto;
+}
+
+.socialmedia {
+  margin-bottom: 20px;
+}
+
+.socialmedia img {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.1);
+}
