@@ -27,6 +27,11 @@ header {
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
 }
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
 nav {
   margin-top: 20px;
 }
@@ -54,11 +59,9 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #picture-img:hover {
-  transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
