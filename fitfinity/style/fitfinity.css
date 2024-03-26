@@ -51,7 +51,7 @@ nav a:hover {
 /* Picture styles */
 #picture {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 #picture-img {
@@ -59,10 +59,6 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-#picture-img:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Main content styles */
@@ -88,7 +84,7 @@ nav a:hover {
   box-shadow: 0 8px 25px rgba(27, 148, 37, 0.2);
 }
 
-.box1 h1, .box2 h2, .box3 h3, .box4 h4 {
+.box1 h1, .box2 h2, .box3 h2, .box4 h2 {
   color:#0779e4;
 }
 
@@ -113,3 +109,4 @@ footer {
 .socialmedia img:hover {
   transform: scale(1.1);
 }
+/* About Us*/
