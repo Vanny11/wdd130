@@ -51,7 +51,7 @@ nav a:hover {
 /* Picture styles */
 #picture {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 #picture-img {
@@ -107,6 +107,119 @@ footer {
 }
 
 .socialmedia img:hover {
+  transform: scale(1.1);}
+
+/* About Us */
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding-bottom: 50px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
   transform: scale(1.1);
 }
-/* About Us*/
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #0779e4;
+}
+
+/* Content styles */
+.container {
+  width: 50%;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+#content img {
+  max-width: 50%;
+  margin: 0 20px 20px 0; 
+  float: left; 
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+h3 {
+  color: #0779e4;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: black;
+}
+
+#content p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: black;
+}
+
+
+/* Footer styles */
+footer {
+  color: #0779e4;
+  text-align: center;
+  left: 5px;
+  bottom: 1em;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.socialmedia {
+  margin-bottom: 10px;
+}
+
+.socialmedia img {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Utility classes */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
